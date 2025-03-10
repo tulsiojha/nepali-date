@@ -2,7 +2,7 @@
   "name": "@zener/nepali-date",
   "author": "Bikash Ojha",
   "license": "MIT",
-  "version": "1.0.1",
+  "version": "1.1.5",
   "description": "Nepali Date is a lightweight utility designed to handle Nepali dates.",
   "private": false,
   "types": "./dist/index.d.ts",
@@ -42,7 +42,7 @@
   "publishConfig": {
     "access": "public"
   },
- "scripts": {
+  "scripts": {
     "dev": "npx nodemon",
     "build": "npm run clean && node build.mjs && npm run tsc",
     "pack": "npm run build && npm pack --pack-destination ./out",
